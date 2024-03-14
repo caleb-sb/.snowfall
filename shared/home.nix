@@ -120,6 +120,8 @@
     aliases = {
       up = "!git remote update -p; git merge --ff-only @{u}";
     };
+    userName = "Caleb";
+    userEmail = "caleb@email.com";
   };
 
   programs.kitty = {
@@ -136,7 +138,7 @@
       "ctrl+shift+k" = "neighboring_window top";
       "ctrl+shift+l" = "neighboring_window right";
       "ctrl+shift+h" = "neighboring_window left";
-      "ctrl_shift+f" = "toggle_layout stack";
+      "ctrl+shift+f" = "toggle_layout stack";
     };
     settings = {
       enabled_layouts = "fat:bias=75;full_size=1;mirrored=false,stack";

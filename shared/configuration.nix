@@ -117,6 +117,7 @@
     networkmanagerapplet # The thing in the tray
     nodejs_20
     nwg-look
+    obsidian
     obs-studio # For my vanity
     pamixer
     parallel
@@ -137,6 +138,7 @@
     tree-sitter # for nvim
     unzip # those pants
     usbimager # mintstick
+    vlc
     wget
     wireplumber
     wl-clip-persist
@@ -144,6 +146,8 @@
     wlogout
     xdg-desktop-portal-hyprland
   ];
+
+  programs.nix-ld.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
