@@ -8,9 +8,11 @@
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
      };
+
+    blender-bin.url = "github:edolstra/nix-warez?dir=blender";
   };
 
-  outputs = { self, nixpkgs, ... }@inputs:
+  outputs = { self, nixpkgs, blender-bin, ... }@inputs:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -27,6 +29,9 @@
         desktop = nixpkgs.lib.nixosSystem {
           specialArgs = {inherit inputs;};
           modules = [
+            ({config, pkgs, ...}: {
+              nixpkgs.overlays = [ blender-bin.overlays.default ];
+            })
             ./desktop/configuration.nix
             inputs.home-manager.nixosModules.default
           ];

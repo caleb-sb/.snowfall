@@ -10,7 +10,7 @@
   };
 
   home.packages = with pkgs; [
-    blender
+    blender_4_0
     steam
     discord
     gparted
