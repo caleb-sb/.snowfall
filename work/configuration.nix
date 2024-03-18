@@ -13,5 +13,6 @@
     users = {
       "caleb" = import ./home.nix;
     };
+    useGlobalPkgs = true;
   };
 }
