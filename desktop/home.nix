@@ -11,9 +11,10 @@
 
   home.packages = with pkgs; [
     blender_4_0
-    steam
+    cura
     discord
     gparted
+    steam
   ];
 }
 
