@@ -5,7 +5,7 @@
   "passthrough": false,
   "exclusive": true,
   "gtk-layer-shell": true,
-  "mode": "dock",
+  // "mode": "dock",
   "modules-left": [
     "custom/padd",
     "custom/l_end",

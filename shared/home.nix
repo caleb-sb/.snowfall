@@ -141,7 +141,7 @@
       "ctrl+shift+f" = "toggle_layout stack";
     };
     settings = {
-      enabled_layouts = "fat:bias=75;full_size=1;mirrored=false,stack";
+      enabled_layouts = "fat:bias=70;full_size=1;mirrored=false,stack";
       scrollback_lines = 10000;
       enable_audio_bell = false;
       confirm_os_window_close = 0;
