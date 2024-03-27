@@ -140,6 +140,7 @@
     tree-sitter # for nvim
     unzip # those pants
     usbimager # mintstick
+    usbutils
     vlc
     wget
     wireplumber
