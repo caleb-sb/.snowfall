@@ -50,6 +50,8 @@
     };
   services.blueman.enable = true;
   services.printing.enable = true;
+  services.gvfs.enable = true;
+  services.udisks2.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
