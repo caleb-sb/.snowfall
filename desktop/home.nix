@@ -20,6 +20,7 @@
   };
 
   home.packages = with pkgs; [
+    freecad
     blender_4_0
     cura
     discord
