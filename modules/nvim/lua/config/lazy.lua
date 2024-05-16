@@ -18,6 +18,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.yaml" },
     { import = "lazyvim.plugins.extras.lang.python" },
     { import = "lazyvim.plugins.extras.lang.docker" },
+    { import = "lazyvim.plugins.extras.lang.go" },
 
     { import = "lazyvim.plugins.extras.linting.eslint" },
 
@@ -57,3 +58,4 @@ require("lazy").setup({
     },
   },
 })
+vim.filetype.add({ extension = { templ = "templ" } })
