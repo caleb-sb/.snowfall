@@ -7,6 +7,8 @@
 
   home.packages = with pkgs; [
     postman
+    vhs
+    inkscape
 
     ## ios browser debug
     libtool
