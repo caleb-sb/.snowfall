@@ -109,7 +109,7 @@
 
   qt = {
     enable = true;
-    platformTheme = "qtct";
+    platformTheme.name = "qtct";
     style = {
       name = "kvantum";
     };
@@ -298,7 +298,7 @@
       };
 
       master = {
-        new_is_master = "true";
+        new_status = "master";
       };
 
       gestures = {
