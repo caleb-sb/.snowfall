@@ -336,6 +336,7 @@
   # environment.
   home.packages = [
     (pkgs.tela-circle-icon-theme.override { colorVariants = [ "purple" ]; })
+    pkgs.inkscape
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
