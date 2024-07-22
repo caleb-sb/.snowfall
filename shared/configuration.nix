@@ -108,7 +108,7 @@
     libsForQt5.ark
     # libsForQt5.ffmpegthumbs
     # libsForQt5.kde-cli-tools
-    # libsForQt5.polkit-kde-agent
+    libsForQt5.polkit-kde-agent
     # libsForQt5.qt5.qtimageformats
     # libsForQt5.qt5.qtwayland
     # libsForQt5.qt5.qtquickcontrols
